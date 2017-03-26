@@ -1,0 +1,320 @@
+
+/* Author: Sineokov Roman, 26.03.2017  */
+
+
+@text-color:#2e2e2e;
+
+@font-face {
+  font-family: "Roboto";
+  src: url(../fonts/Roboto-Regular.ttf);
+  font-family: "Roboto-Medium";
+  src: url(../fonts/Roboto-Medium.ttf);
+ }
+
+
+body{ 
+	background-color: #B90A02;
+	margin:0px;
+	font-family: "Roboto", sans-serif;
+  background: 
+  url(../img/background-01.png) 86% 60px no-repeat, 
+  url(../img/background-122.png) 95% 101px no-repeat, 
+  url(../img/background-33.png) 98% 1106px no-repeat, 
+  url(../img/background-44.png) 95% 573px no-repeat,
+  url(../img/background-5.png) -65px 1085px no-repeat, 
+  url(../img/background-6.png) 89% 695px no-repeat,
+  url(../img/background-77.png) 85% 200px no-repeat, 
+  url(../img/background-88.png) 3% 860px no-repeat,
+  url(../img/background-9.png) 26% 115px no-repeat, 
+  url(../img/background-10.png) 9.5% 1000px no-repeat,
+  url(../img/background-11.png) 93% 950px no-repeat,    
+  url(../img/background-122.png) 102% 770px no-repeat,
+  url(../img/background-1313.png) -35px 660px no-repeat, 
+  url(../img/background-14.png) 7.5% 1190px no-repeat,
+  url(../img/background-155.png) 73% 120px no-repeat, 
+  url(../img/background-16.png) 58% 21px no-repeat,
+  url(../img/background-177.png) 95% 395px no-repeat, 
+  url(../img/background-1818.png) 12% 135px no-repeat,
+  url(../img/background-19.png) 4% 500px no-repeat, 
+  url(../img/background-2020.png) 38% 240px no-repeat,
+  url(../img/background-21.png) 37% -10px no-repeat, 
+  url(../img/background-22.png) 102% 244px no-repeat,
+  url(../img/background-2323.png) 20% -19px no-repeat, 
+  url(../img/background-177.png) 11% 612px no-repeat,
+  url(../img/background-2525.png) 2.5% 300px no-repeat, 
+  url(../img/background-26.png) -15px 75px no-repeat,
+  #B90A02;
+
+  background-size:
+  57px 52px,59px 50px, 104px 120px,69px 79px,106px 103px, 
+  83px 74px, 46px 46px, 85px 94px, 58px 75px,73px 94px,
+  104px 103px,104px 89px, 105px 110px,84px 95px,91px 103px,
+  65px 74px,69px 69px,110px 115px,74px 81px,74px 60px,
+  68px 90px,77px 76px,64px 67px,69px 68px,83px 74px,60px 75px; 
+
+}
+
+.navbar-right{
+	float:right;
+}
+
+.navbar{
+	display:block; 
+	height:60px;  
+	width:100%; 
+}
+.logo{   
+	float: left;
+	display:block;
+	width: 90px;
+  height: 60px;
+  text-decoration:none;
+  background-image: url(../img/life-logo.png);
+  background-size:90px 36px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin-left: 20px;
+}
+
+.button-text{
+	display:block;
+	float:left;
+	color: #ffffff;
+  font-family: "Roboto";
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  text-align: left;
+  text-transform:uppercase;
+  text-decoration:none;
+  border-radius: 2px;
+  background: #eb0f00;
+  padding:10px 25px;
+  margin:11px 5px;
+}
+
+.button-text:hover{
+	background-color: #f91313;
+}
+
+.button-text-stream{
+ padding-left:50px;
+ background-image: url(../img/youtube_white.png);
+ background-size:20px 14px;
+ background-position: 20px center;
+ background-repeat: no-repeat;
+}
+
+.button-text-mylife{
+	margin-right:10px;
+}
+
+.button{
+	cursor: pointer;
+	position: relative;
+	display:block;
+	float: left;
+	width:40px;
+	height: 60px;
+	border:none;
+	opacity:0.7;
+	background-position: center center;
+ 	background-repeat: no-repeat;
+  background-color: transparent;
+  background-size:20px 20px;
+}
+.button-user{
+ border:none;
+ background-image: url(../img/user_white.png);
+ background-size:20px 20px;
+ background-position: center center;
+ background-repeat: no-repeat;
+ background-color: transparent;
+ -webkit-transition: opacity 0.15s ease-out;
+ transition: opacity 0.15s ease-out;
+ opacity:0.7;
+}
+.button-user:hover, .button-search:hover{
+	opacity:1.0;
+}
+.button-search{
+	margin-right: 35px;
+	background-image: url(../img/search_white.png);
+}
+
+.header{
+	position: relative;
+	color: #ffffff;
+	margin: 76px auto 66px auto;
+	width: 426px;
+  height: 77px;
+  font-family:"Roboto";
+  font-size: 58px;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 400;
+  text-align: center;
+}
+
+.main-block{
+	width: 1010px;
+	display:block;
+	position: relative;
+	margin:0 auto;
+	background: #ffffff;
+	padding-top:70px;
+	overflow: auto;
+}
+
+.paragraph{
+	margin:0 auto;
+	width: 750px;
+  color: @text-color;
+  font-family: "Roboto";
+  font-size: 19px;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 400;
+  text-align: left;
+}
+
+.main-block__header{
+  font-family:"Roboto-Medium";
+	display:block;
+	margin:0 auto;
+  height: 27px;
+  font-size: 27px;
+  font-weight: 500;
+  margin-bottom:30px;
+}
+
+.first-paragraph{
+  margin-bottom:30px;
+}
+.second-paragraph{
+   margin-bottom:30px;
+}
+
+.picture{
+	padding-bottom:25px;
+	display:block;
+	border-radius: 3px;
+  width: 750px;
+  margin:0 auto 50px auto;
+  background: #ffffff;
+  box-shadow: 0px 1px 30px rgba(3,0,0,0.2);
+}
+.bitmap{
+	width: 751px;
+  height: 467px;
+}
+
+.picture__descript{
+  font-size: 17px;
+  font-weight: 400;
+  text-align:left;
+  margin-top: 20px;
+}
+.picture__main-descript{
+  width: 116px;
+  color: #b90902;
+  font-weight: 700;
+  margin-left:25px;
+  margin-right:10px;
+}
+
+.competition{
+	width: 729px;
+  height: 363px;
+  margin:0 auto;
+}
+
+.competition-block{
+	padding-left: 27px;
+}
+
+.competition-header{
+  height: 27px;
+  font-size: 27px;
+  font-weight: 500;
+  margin-bottom: 30px;
+  font-family:"Roboto-Medium";
+}
+
+.competition-rules{
+	list-style-image: url(../img/heart1.png);
+	margin-bottom: 20px;
+	padding-left:20px;
+}
+
+.share-container{
+	 margin: 0 auto;
+	 margin-bottom:100px;
+	 width:750px;
+	 padding-left: 25px;
+}
+
+.share-title{
+  font-family:"Roboto-Medium";
+	position: relative;
+	margin: 30px 0;
+  font-size: 27px;
+  font-weight: 500;
+
+}
+
+.button-share{	
+ font-size: 14px;
+ display:block;
+ float:left;
+ border-radius: 2px;
+ height: 40px;
+ text-decoration:none;
+ color: #ffffff;
+ margin-right: 7px;
+ margin-bottom:5px;
+ line-height: auto;
+ height: 14px;
+ font-family: "Roboto";
+ font-style: normal;
+ font-stretch: normal;
+ font-weight: 400;
+ opacity:0.9;
+}
+
+.button-share:hover{
+	opacity:1.0;
+}
+
+.share-vk{
+  padding:13px 17px 13px 47px;
+  background: #5d7193;
+  background-image: url(../img/vk_white.png);
+  background-size:21px 12px;
+  background-position: 17px center;
+  background-repeat: no-repeat;
+}
+.share-ok{
+	padding:13px 12px 13px 43px;
+	background: #ec7b0a;
+	background-image: url(../img/ok-white.png);
+	background-size:11px 16px;
+	background-position: 24px center;
+	background-repeat: no-repeat;
+}
+.share-twit{
+	padding:13px 19px 13px 46px;
+	background: #77acee;
+	background-image: url(../img/twi_white.png);
+	background-size:16px 13px;
+	background-position: 19px center;
+	background-repeat: no-repeat;
+}
+.share-face{
+	padding:13px 21px 13px 43px;
+	background: #485b97;
+	background-image: url(../img/fb_white.png);
+	background-size:7px 14px;
+	background-position: 22px center;
+	background-repeat: no-repeat;
+}
